@@ -54,10 +54,6 @@ static const CGFloat SVProgressHUDParallaxDepthPoints = 10;
 @property (nonatomic, assign) UIOffset offsetFromCenter;
 
 
-- (void)showProgress:(float)progress
-              status:(NSString*)string
-            maskType:(SVProgressHUDMaskType)hudMaskType;
-
 - (void)showImage:(UIImage*)image
            status:(NSString*)status
          duration:(NSTimeInterval)duration;
